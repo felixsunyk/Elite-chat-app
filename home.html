@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chatroom.css">
+</head>
+<body class="home-body">
+    <h1>welcome to elite chat room</h1>
+
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="felix-selector">Felix K</button>
+        <button class="button person-selector-button" id="tobi-selector">Tobi</button>
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Felix chatting....</h2>
+        <div class="chat-message">
+            <div class="message messageright blue-bg">
+                <div class="message-sender">Felix K</div>
+                <div class=" message-text felix-text ">Hey tobi</div>
+                <div class="felix-time message-time ">4:00am</div>
+            </div>
+            <div class="message gray-bg">
+                <div class="message-sender">Tobi</div>
+                <div class="message-text">learning css </div>
+                <div class="message-time">4:01am</div>
+            </div>
+        </div>
+    </div>
+    <form action="" class="chat-input-form">
+        <input type="text" class="chat-input" required name="" placeholder="Type here, Felix k...">
+        <button type="submit" class="button send-button">Send</button>
+    </form>
+        <button class=" button clear-chat-button">Clear Chat</button>
+
+
+       <script src="script.js"></script>
+</body>
+</html>
