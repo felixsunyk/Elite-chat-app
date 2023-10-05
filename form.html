@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="chatroom.css">
 </head>
 <body>
-    <h1>join elite group</h1>
-
-    <form action="" method="get">
-
-        <label for="first">Name: <input type="text" name="name" id="first" placeholder="Enter your name" required></label><br><br>
-        <!-- <label for="last">last name:<input type="text" name="last name" id="last" placeholder="Enter your last name"></label> -->
-        <label for="phone">Phone number: <input type="text" name="phone number" id="phone" placeholder="Enter your phonr number" required></label><br><br>
-        <label for="pass">password: <input type="password" required minlength="5" maxlength="12" name="password" placeholder="Enter your password" id="pass"></label> <br><br>
-        <label for="comfirm">comfirm password: <input type="password" required minlength="5"  maxlength="12" name="comfirmpassword" id="comfirm" placeholder="Comfirm your email"></label> <br><br>
-        <label for="email">email: <input type="email" name="email" id="email" placeholder="Enter your email" required></label> <br><br>
-       <input type="reset" name="" id="">
-      <button value="save">save</button>
-    </form>
+    <div class="cont" >
+        <h1 id="ip">join elite group</h1>
+        <!-- onclick="if (!this.form.validity.required) {return false;}" required="required" -->
+        <form action="home.html" method="get" id="formpage">
+            <label for="first">Name:</label><br><input type="text" class="data" name="name" id="first" placeholder="Enter your name" required><br>
+            <!-- <label for="last">last name:<input type="text" name="last name" id="last" placeholder="Enter your last name"></label> -->
+            <label for="phone">Phone number: </label><br><input type="text" class="data" name="phone number" id="phone" placeholder="Enter your phonr number" required><br>
+            <label for="pass">password:</label> <br> <input type="password" class="data" required minlength="5" maxlength="12" name="password" placeholder="Enter your password" id="pass"><br>
+            <label for="comfirm">comfirm password:</label> <br><input type="password" class="data" required minlength="5"  maxlength="12" name="comfirmpassword" id="comfirm" placeholder="Comfirm your email"><br>
+            <label for="email">email:</label> <br> <input type="email" name="email" class="data" id="email" placeholder="Enter your email" required><br><br>
+           <input type="reset" name="" class="sub">
+          <button type="submit" value="save" class="sub save"  onclick="myFunction(home.html)">save</button>
+        </form>
+    </div>
 </body>
+<!-- ({if (!this.form.validity.required) {return false;}}) -->
 </html>

@@ -3,7 +3,7 @@
 const felixSelector = document.getElementById('felix-selector');
 const tobiSelector =document.getElementById('tobi-selector');
 const chatHeader = document.querySelector('.chat-header');
-const chatMessage = document.querySelector('.chat-message');
+const chatMessages = document.querySelector('.chat-message');
 const chatInputForm = document.querySelector('.chat-input-form');
 const chatInput = document.querySelector('.chat-input');
 const clearbtn = document.querySelector('.clear-chat-button');
@@ -37,17 +37,18 @@ const updateMessageSender = (name) =>{
 felixSelector.onclick = () => updateMessageSender('Felix k')
 tobiSelector.onclick = () => updateMessageSender('Tobi')
 
-const sendMessage = (e) =>{
-    e.preventDefult
+const sendMessage = (mail) =>{
+    mail.preventDefult()
+    // e.preventDefult()
     const time = new Date().toLocaleString("en-uk",{hour:'numeric', minute:'numeric', hour12:true})
     const message = {
         sender: messageSender,
         text: chatInput.value,
         time,
     }
-    chatMessage.innerHTML += createChatMessageElement(message)
+    chatMessages.innerHTML += createChatMessageElement(message)
 }
-chatInputForm.addEventListener("submit", sendMessage)
+chatInputForm.addEventListener('submit', sendMessage)
     // chatInputForm.reset()
     // chatMessage.scrollTop = chatMessage.scrollHeight 
     // chatMessages.push(message)

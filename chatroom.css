@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0;box-sizing: border-box;}
-body{
+.body{
     /* text-align: center; */
     line-height: 2em;
     padding-top: 1rem;
@@ -35,7 +35,7 @@ h1{
     cursor: pointer;
 }
 .button:hover{
-    filter: brightness(o.9);
+    filter: brightness(0.9);
 }
 button:active{
     transform: translateX(2px);
@@ -60,11 +60,11 @@ button:active{
 }
 .chat-container{
     background-color: #15202b;
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 1.5em 2.5em;
     margin: auto;
     max-width: 37.5em;
-    height: 30.5em;
+    height: 37.5em;
     box-shadow: 0 0 1.25em 0.54em #c3c3cd;
 }
 .chat-header{
@@ -72,7 +72,7 @@ button:active{
     color: #fff;
 
 }
-.chat-header-h2{
+.chat-header h2{
     font-size: 1.25em;
     font-weight: bold;
 }
@@ -94,6 +94,7 @@ button:active{
     flex-direction: column;
     color: #fff;
     /* width: fit-content; */
+    /* height: fit-content; */
 }
 .message-sender{
     font-weight: bold;
@@ -106,17 +107,17 @@ button:active{
 }
 .message-time{
     font-size: 0.7em;
-    /* text-align: right; */
+    text-align: right;
 }
 
-.felix-text{
+/* .felix-text{
     text-align: right;
     
 }
 .felix-time{
     text-align: right;
     font-size: 0.7em;
-}
+} */
 .blue-bg{
     background-color: #1c9bef;
 }
@@ -140,11 +141,80 @@ button:active{
 }
 .send-button{
     background-color: #1c9bef;
-    color: #ffff;
+    color: #fff;
     font-size: 1em;
     font-weight: bold;
+    
 }
 .clear-chat-button{
     display: block;
     margin: 2.5em auto ;
+}
+/* index page css */
+.main{
+  text-align: center;
+  margin-top: 30%;
+}
+.main a button{
+    padding: 0.6em;
+    border-radius: 0.5em;
+    background-color: burlywood;
+    color: #fff;
+     cursor: pointer;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+}
+.main a button:hover{
+    box-shadow: 0 0 1.25em 0.1em #f3f3;
+    filter: brightness(0.9);
+}
+.cont{
+    background-color: #152025;
+    height: 100vh;
+    width: fit-content;
+    margin: auto;
+}
+#ip{
+    padding-top: 20vh;
+    animation:move 2s infinite;  
+}
+@keyframes move {
+    from {color: rgb(109, 218, 19);}
+    to {color: rgb(48, 48, 116);}
+    to {color: rgb(0, 126, 128);}
+    to {color: rgb(225, 231, 225);}
+    to {color: rgb(107, 47, 47)}
+    to {color: rgba(212, 151, 10, 0.662);}
+    to {color: hsl(60, 2%, 26%);}
+    to {color: rgb(11, 188, 247);}
+    to {color: rgba(113, 112, 155, 0.662);}
+    to {color: hsl(298, 87%, 44%);}
+}
+
+/* form page css*/
+#formpage{
+    text-align: center;
+    line-height: 1.5em;
+}
+label{
+  text-align: left;
+  text-transform: capitalize;
+  color: #c3c3cd;
+}
+.data{
+    background-color: #070707;
+    padding: 1em;
+    color:#fff ;
+    filter: brightness(0.9);
+}
+.sub{
+    border-radius: 1em;
+    width: fit-content;
+    padding: 0.5em;
+    color: #fff;
+    background-color: rgb(8, 8, 89);
+}
+.save{
+    margin-left: 0.5em;
+   background-color: crimson;
 }
