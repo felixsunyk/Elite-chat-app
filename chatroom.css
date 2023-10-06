@@ -169,13 +169,15 @@ button:active{
     filter: brightness(0.9);
 }
 .cont{
+  
     background-color: #152025;
     height: 100vh;
     width: fit-content;
-    margin: auto;
+    margin: 2em auto;
+    padding:auto;
 }
 #ip{
-    padding-top: 20vh;
+    padding-top: 10vh;
     animation:move 2s infinite;  
 }
 @keyframes move {
@@ -190,6 +192,7 @@ button:active{
     to {color: rgba(113, 112, 155, 0.662);}
     to {color: hsl(298, 87%, 44%);}
 }
+
 
 /* form page css*/
 #formpage{
@@ -217,4 +220,21 @@ label{
 .save{
     margin-left: 0.5em;
    background-color: crimson;
+}
+
+/* login form */
+
+.sec{
+    border: 0.1em solid;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+
+@media only screen and (max-width:600px) {
+   .cont{
+    height: 100vh;
+    margin: 1em;
+    padding: 1em;
+   }
 }
