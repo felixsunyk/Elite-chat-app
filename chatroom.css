@@ -26,6 +26,7 @@ h1{
 } */
 .home-body{
     background-color: rgb(54, 101, 23);
+
 }
 
 .button{
@@ -61,10 +62,10 @@ button:active{
 .chat-container{
     background-color: #15202b;
     font-family: "Roboto", sans-serif;
-    padding: 1.5em 2.5em;
+    padding: 2em;
     margin: auto;
     max-width: 37.5em;
-    height: 37.5em;
+    height: 35.5em;
     box-shadow: 0 0 1.25em 0.54em #c3c3cd;
 }
 .chat-header{
@@ -127,7 +128,8 @@ button:active{
 .chat-input-form{
     display: flex;
     align-items: center;
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    /* margin: auto; */
     gap: 0.6em;
 }
 .chat-input{
@@ -138,6 +140,7 @@ button:active{
     color: #333;
     font-size: 1em;
     flex-grow: 1;
+    margin: 1em;
 }
 .send-button{
     background-color: #1c9bef;
@@ -148,7 +151,7 @@ button:active{
 }
 .clear-chat-button{
     display: block;
-    margin: 2.5em auto ;
+    margin: 1em auto ;
 }
 /* index page css */
 .main{
@@ -236,5 +239,10 @@ label{
     height: 100vh;
     margin: 1em;
     padding: 1em;
+   }
+   .home-body{
+    margin: 2em;
+    background-color: cadetblue;
+
    }
 }
