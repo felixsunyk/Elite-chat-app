@@ -1,5 +1,4 @@
 // "use scrict";
-
 const felixSelector = document.getElementById('felix-selector');
 const tobiSelector =document.getElementById('tobi-selector');
 const chatHeader = document.querySelector('.chat-header');
