@@ -343,21 +343,41 @@ label{
     padding: 1em;
    }
    .home-body{
-    margin: 2em;
-    background-color: cadetblue;
-   }
-   .chat-input-form{
-    display: block;
+       margin: 2em;
+       background-color: cadetblue;
+    }
+    .chat-input-form{
+       position: relative;
+       display: inline-block;
+    /* display: block; */
     align-items: center;
    }
-   h1{
+   .h20{
     text-align: center;
     padding: 1rem;
    /* background-color: #191e29; */
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: azure;
-    font-size: small;
+   font-size: 1.3em;
+}
+.chat-input{
+    padding-right: 4em;
+    width: 20em;
+    /* height: 100%; */
+}
+.send-button{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    /* height: 100%; */
+
+}
+.clear-chat-button{
+    display: block;
+    margin: 0.1em auto;
 }
 
 }
