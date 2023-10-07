@@ -258,18 +258,26 @@ button:active{
 /* index page css */
 .main{
   text-align: center;
-  margin-top: 30%;
 }
-.main a button{
-    padding: 0.6em;
-    border-radius: 0.5em;
-    background-color: burlywood;
-    color: #fff;
-     cursor: pointer;
-    text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
+.main a{
+  text-decoration: none;
 }
-.main a button:hover{
+.create{
+  border: 1px solid;
+  padding: 0.5em 4em 0.5em 1.5em;
+  border-radius: 1em 0 0 1em;
+  background-color: #eee;
+}
+.sign{
+  border-radius: 0 1em 1em 0;
+  border: 1px solid;
+  padding: 0.5em 1.5em 0.5em 4em;
+  background-color: rgb(169, 77, 61);
+}
+
+
+  
+.main a:hover{
     box-shadow: 0 0 1.25em 0.1em #f3f3;
     filter: brightness(0.9);
 }
@@ -282,7 +290,7 @@ button:active{
     padding:auto;
 }
 #ip{
-    padding-top: 10vh;
+    padding-top: 1vh;
     animation:move 2s infinite;  
 }
 @keyframes move {
@@ -310,7 +318,7 @@ label{
   color: #c3c3cd;
 }
 .data{
-    background-color: #070707;
+    background-color: #e1cfcf;
     padding: 1em;
     color:#fff ;
     filter: brightness(0.9);
@@ -320,6 +328,7 @@ label{
     width: fit-content;
     padding: 0.5em;
     color: #fff;
+    border: 0.5px solid white;
     background-color: rgb(8, 8, 89);
 }
 .save{
@@ -333,6 +342,14 @@ label{
     border: 0.1em solid;
   text-align: center;
   padding-bottom: 5em;
+}
+.homepage{
+
+}
+.mainbox{
+  background-color: #08529d;
+  margin:3em;
+  padding:3em ;
 }
 
 
@@ -379,5 +396,14 @@ label{
     display: block;
     margin: 0.1em auto;
 }
+.mainbox{
+  background-color: #08529d;
+  margin:3em;
+  padding:3em ;
+  font-size: 1em;
+}
 
+.main a{
+  width: 100%;
+}
 }
