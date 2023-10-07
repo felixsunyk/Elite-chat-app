@@ -348,8 +348,13 @@ label{
 }
 .mainbox{
   background-color: #08529d;
-  margin:3em;
+  /* margin:3em; */
   padding:3em ;
+  height: 100vh;
+  padding-top: 50%;
+}
+.main{
+  margin-top: 20%;
 }
 
 
@@ -398,12 +403,36 @@ label{
 }
 .mainbox{
   background-color: #08529d;
-  margin:3em;
+  margin:0;
   padding:3em ;
+  padding-top: 30%;
+  height: 100vh;
   font-size: 1em;
 }
-
-.main a{
-  width: 100%;
+.homepage{
+  font-size: small;
 }
+
+
+
+.main{
+  width: 100%;
+  margin-top: 70%;
+}
+.create{
+  width: 40%;
+  border: 1px solid;
+  padding: 0.3em 2em 0.3em 1em;
+  border-radius: 1em 0 0 1em;
+  background-color: #eee;
+}
+.sign{
+  width: 40%;
+  border-radius: 0 1em 1em 0;
+  border: 1px solid;
+  padding: 0.3em 2em 0.3em 1em;
+  background-color: rgb(169, 77, 61);
+}
+
+
 }
