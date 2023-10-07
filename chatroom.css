@@ -95,7 +95,7 @@
 }
 
 
-Resources
+
 
 
 
@@ -137,6 +137,44 @@ h1{
     border-radius: 0.5em;
     cursor: pointer;
 }
+/* signin page */
+.signinh1{
+  font-size: 3em;
+}
+.signin{
+  background-color: #333;
+  text-align: center;
+  line-height: 2em;
+  margin: auto ;
+  padding: 3em;
+  height: 100vh;
+}
+
+.password{
+  margin-top: 2em;
+}
+.creat{
+  border-radius: 1em;
+}
+input{
+  padding: 1em;
+  width: 27em;
+}
+.creat-it{
+  padding: 1em;
+  width: 27em;
+  text-transform: capitalize;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+background-color: brown;
+color: floralwhite;
+
+}
+
+
+
+
+
 .button:hover{
     filter: brightness(0.9);
 }
@@ -273,6 +311,7 @@ button:active{
   border: 1px solid;
   padding: 0.5em 1.5em 0.5em 4em;
   background-color: rgb(169, 77, 61);
+  color: #fff;
 }
 
 
@@ -291,7 +330,8 @@ button:active{
 }
 #ip{
     padding-top: 1vh;
-    animation:move 2s infinite;  
+    animation:move 2s infinite; 
+    margin: 4em; 
 }
 @keyframes move {
     from {color: rgb(109, 218, 19);}
@@ -333,7 +373,7 @@ label{
 }
 .save{
     margin-left: 0.5em;
-   background-color: crimson;
+   background-color: rgb(184, 19, 52);
 }
 
 /* login form */
@@ -347,12 +387,15 @@ label{
 
 }
 .mainbox{
-  background-color: #08529d;
+  background-color: #062849;
   /* margin:3em; */
-  padding:3em ;
+  padding:15em auto;
   height: 100vh;
   padding-top: 3em;
+  margin: 3em ;
+  
 }
+
 .main{
   margin-top: 20%;
 }
@@ -374,6 +417,22 @@ label{
     /* display: block; */
     align-items: center;
    }
+   .mainbox{
+  background-color: #062849;
+  /* margin:3em; */
+  padding:10em auto;
+  height: 100vh;
+  width: 100%;
+  padding-top: 3em;
+  margin: 3em ;
+  
+}
+#ip{
+  /* padding-top: 1vh; */
+  animation:move 2s infinite; 
+  margin: 4em; 
+  font-size:x-small;
+}
    .h20{
     text-align: center;
     padding: 1rem;
@@ -433,6 +492,35 @@ label{
   padding: 0.3em 2em 0.3em 1em;
   background-color: rgb(169, 77, 61);
 }
+
+.signinh1{
+  font-size: 2em;
+}
+.signin{
+  background-color: #333;
+  text-align: center;
+  line-height: 2em;
+  margin: auto ;
+  padding: 3em;
+}
+
+.password{
+  margin-top: 1em;
+}
+.creat{
+  border-radius: 1em;
+  padding: 1em;
+  width: 20em;
+}
+.creat-it{
+  text-transform: capitalize;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+background-color: brown;
+color: floralwhite;
+
+}
+
 }
 
 
@@ -482,13 +570,13 @@ label{
 .mainbox{
  background-color: #08529d;
  margin:0;
- padding:3em ;
- padding-top: 30%;
+ /* padding: 20em 3em ; */
+ /* padding-top: 30em; */
  height: 100vh;
  font-size: 1em;
 }
 .homepage{
- font-size: small;
+ font-size: large;
 }
 
 
@@ -511,4 +599,34 @@ label{
  padding: 0.3em 2em 0.3em 1em;
  background-color: rgb(169, 77, 61);
 }
+
+.signinh1{
+  font-size: 2em;
+}
+.signin{
+  background-color: #333;
+  text-align: center;
+  line-height: 2em;
+  margin: auto ;
+  padding: auto;
+  height: 100vh;
+}
+
+.password{
+  margin-top: 1em;
+}
+.creat{
+  border-radius: 1em;
+  padding: 1em;
+  width: 20em;
+}
+.creat-it{
+  text-transform: capitalize;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+background-color: brown;
+color: floralwhite;
+
+}
+
 }
