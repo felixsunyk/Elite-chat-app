@@ -351,7 +351,7 @@ label{
   /* margin:3em; */
   padding:3em ;
   height: 100vh;
-  padding-top: 50%;
+  padding-top: 3em;
 }
 .main{
   margin-top: 20%;
@@ -405,7 +405,7 @@ label{
   background-color: #08529d;
   margin:0;
   padding:3em ;
-  padding-top: 30%;
+  padding-top: 2em;
   height: 100vh;
   font-size: 1em;
 }
@@ -433,6 +433,82 @@ label{
   padding: 0.3em 2em 0.3em 1em;
   background-color: rgb(169, 77, 61);
 }
+}
 
 
+@media only screen and (max-width:300px) {
+  .cont{
+   height: 100vh;
+   margin: 1em;
+   padding: 1em;
+  }
+  .home-body{
+      margin: 2em;
+      background-color: cadetblue;
+   }
+   .chat-input-form{
+      position: relative;
+      display: inline-block;
+   /* display: block; */
+   align-items: center;
+  }
+  .h20{
+   text-align: center;
+   padding: 1rem;
+  /* background-color: #191e29; */
+   text-transform: uppercase;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: azure;
+  font-size: 1.3em;
+}
+.chat-input{
+   padding-right: 4em;
+   width: 20em;
+   /* height: 100%; */
+}
+.send-button{
+   position: absolute;
+   top: 15px;
+   right: 0;
+   border: none;
+   cursor: pointer;
+   /* height: 100%; */
+
+}
+.clear-chat-button{
+   display: block;
+   margin: 0.1em auto;
+}
+.mainbox{
+ background-color: #08529d;
+ margin:0;
+ padding:3em ;
+ padding-top: 30%;
+ height: 100vh;
+ font-size: 1em;
+}
+.homepage{
+ font-size: small;
+}
+
+
+
+.main{
+ width: 100%;
+ margin-top: 70%;
+}
+.create{
+ width: 40%;
+ border: 1px solid;
+ padding: 0.3em 2em 0.3em 1em;
+ border-radius: 1em 0 0 1em;
+ background-color: #eee;
+}
+.sign{
+ width: 40%;
+ border-radius: 0 1em 1em 0;
+ border: 1px solid;
+ padding: 0.3em 2em 0.3em 1em;
+ background-color: rgb(169, 77, 61);
+}
 }
