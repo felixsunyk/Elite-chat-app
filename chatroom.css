@@ -313,7 +313,7 @@ button:active{
 .cont{
   
     background-color: #152025;
-    height: 100vh;
+    height: fit-content;
     width: fit-content;
     /* margin: 2em auto; */
     /* padding:auto; */
@@ -402,8 +402,9 @@ label{
 }
 .sec{
   border: 2px solid;
-  margin: 2em 6em;
+  margin: 2em 2em;
   padding: 1em;
+  width: 100%;
 }
 #pi{
  background-color: rgb(32, 73, 73);
@@ -440,6 +441,8 @@ label{
   color: rgb(169, 77, 61);
  margin-top: 3em;
 }
+
+
 
 @media only screen and (max-width:600px) {
    .cont{
@@ -591,7 +594,7 @@ color: floralwhite;
 }
 .chat-input{
    padding-right: 4em;
-   width: 20em;
+   width: 100%;;
    /* height: 100%; */
 }
 .send-button{
