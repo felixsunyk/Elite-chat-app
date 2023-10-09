@@ -580,6 +580,7 @@ color: floralwhite;
    .chat-input-form{
       position: relative;
       display: inline-block;
+      width: 100%;
    /* display: block; */
    align-items: center;
   }
@@ -600,7 +601,7 @@ color: floralwhite;
 .send-button{
    position: absolute;
    top: 15px;
-   right: 0;
+   right: 1em;
    border: none;
    cursor: pointer;
    /* height: 100%; */
