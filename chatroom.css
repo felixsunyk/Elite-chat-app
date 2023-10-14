@@ -458,7 +458,7 @@ label{
        position: relative;
        display: inline-block;
     /* display: block; */
-    align-items: center;
+    /* align-items: center; */
    }
    .mainbox{
   background-color: #062849;
@@ -474,7 +474,7 @@ label{
   /* padding-top: 1vh; */
   animation:move 2s infinite; 
   margin: 4em; 
-  font-size:x-small;
+  font-size: larger;
 }
    .h20{
     text-align: center;
@@ -486,8 +486,8 @@ label{
    font-size: 1.3em;
 }
 .chat-input{
-    padding-right: 4em;
-    width: 20em;
+    padding-right: 1em;
+    width: 15em;
     /* height: 100%; */
 }
 .send-button{
@@ -512,7 +512,9 @@ label{
   font-size: 1em;
 }
 .homepage{
-  font-size: small;
+  font-size:large;
+ text-transform: capitalize;
+ margin-top: 1em;
 }
 
 
@@ -580,9 +582,9 @@ color: floralwhite;
    .chat-input-form{
       position: relative;
       display: inline-block;
-      width: 100%;
+      width: 70%;
    /* display: block; */
-   align-items: center;
+   /* align-items: center; */
   }
   .h20{
    text-align: center;
@@ -595,13 +597,13 @@ color: floralwhite;
 }
 .chat-input{
    padding-right: 4em;
-   width: 100%;;
+   width: 70%;;
    /* height: 100%; */
 }
 .send-button{
    position: absolute;
    top: 15px;
-   right: 1em;
+   /* right: 1em; */
    border: none;
    cursor: pointer;
    /* height: 100%; */
@@ -620,7 +622,7 @@ color: floralwhite;
  font-size: 1em;
 }
 .homepage{
- font-size: large;
+ font-size: x-large;
 }
 
 

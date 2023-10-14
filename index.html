@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Chat-Room</title>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="chatroom.css">
     <script src="https://kit.fontawesome.com/7615526440.js" crossorigin="anonymous"></script>
 </head>
@@ -11,11 +12,25 @@
 <div class="mainbox">
     
         <h1 id="ip" class="homepage">welcome to elite chat room</h1>
+<!-- 
+        <div class="firstp" ic="">
+            <img src="picture/felix.jpg" alt="" style="width: 20%; height: 20%; border-radius: 50%; float: right; margin-right: 2em;">
+        </div> -->
     
     <div class="main">
         <a href="open-form.html" target="_self" class="create">create account</a><a href="signin.html" target="_self" class="sign">sign in</a>
     </div>
     
 </div>
+
+<script>
+    let typed = new Typed('#ip', {
+      strings: ['welcome to Elite chat App.', 'we love you.', "feel free to chat with us and share your ideas"],
+      typeSpeed: 80,
+      fadeOutDelay: 500,
+      backDelay: 700,
+    });
+  </script>
+
 </body>
 </html>
