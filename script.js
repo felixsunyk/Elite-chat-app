@@ -6,6 +6,18 @@ const chatMessage = document.querySelector('.chat-message');
 const chatInputForm = document.querySelector('.chat-input-form');
 const chatInput = document.querySelector('.chat-input');
 const clearbtn = document.querySelector('.clear-chat-button');
+const brightness = document.getElementById("brightness");
+
+
+const body = document.body;
+brightness.addEventListener("input", function(){
+    const bright = brightness.value 
+    body.style.backgroundColor = `hsl(0, 0%, ${100-bright}%)`
+    
+
+}
+ )
+
 
 const chatMessageElement = (message) =>`
 <div class="message ${message.sender === 'Felix' ? 'blue-bg' : 'gray-bg' } ">

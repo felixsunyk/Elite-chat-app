@@ -7,15 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="chatroom.css">
 </head>
-<body>
+<body class=" signinpage light-mode dark-mode">
+    <label for="mode-toggle">toggle dark mode</label>
+    <input type="checkbox" id="mode-toggle">
+
     <div class="signin">
         <h1 class="signinh1">join our team</h1>
         <div class="password">
-            <input type="text" name="" class="creat" placeholder="Enter your name"> <br><br>
-            <input type="text"  name="" required placeholder="Enter your password" class="creat"> <br><br>
-            <button class="creat creat-it">sign in</button>
+            <form action="home.html">
+                <input type="text" name="" class="creat" placeholder="Enter your name" required> <br><br>
+                <input type="password"  name="password" minlength="5" maxlength="12" placeholder="Enter your password" class="creat"> <br><br>
+                <button type="submit" value="sign in" class="creat creat-it" onclick="myFunction(home.html)">sign in</button>
+
+                
+
+            </form>
+
         </div>
     </div>
+    <script>
+        const modeToggle = document.getElementById("mode-toggle");
+        const body = document.body
+        modeToggle.addEventListener("change", function()
+        {  if (modeToggle.checked)
+            {
+                body.classList.remove("light-mode");
+                body.classList.add("dark-mode")
+            } else {
+                body.classList.remove("dark-mode");
+                body.classList.add("light-mode")
+            }
+        });
+    </script>
     
 </body>
 </html>
